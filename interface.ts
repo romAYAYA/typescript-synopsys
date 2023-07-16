@@ -60,3 +60,10 @@ console.log(allUsers)
 let result = allUsers.filter((user) => user.id % 2 == 0)
 
 console.log(result)
+
+// example of decorator usage
+
+// @Component({})
+// class Component {
+//   constructor(public name: string) { }
+// }
